@@ -6,7 +6,7 @@
   "scripts": {
     "test": "node tests/run_all_qa.js",
     "dev": "vite",
-    "build": "npx vite build",
+    "build": "node node_modules/vite/bin/vite.js build",
     "preview": "vite preview"
   },
   "keywords": [],
