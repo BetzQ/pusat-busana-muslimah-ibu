@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Pusat Busana Muslimah Ibu - Konveksi, Pola & Printilan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+  <!-- Sticky Top Bar -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <div class="brand-title">PUSAT BUSANA MUSLIMAH IBU</div>
+        <div class="brand-sub">Tren • Pola Coret • Hitung Modal • Printilan</div>
+      </div>
+      <a class="wa-group-btn" id="btnWaGroupTop" href="https://chat.whatsapp.com/E85pWxWFfaJCimh9vxYv1j" target="_blank" rel="noopener">📌 BUKA GRUP CATATAN WA IBU</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- TAB 1: Tren Baju Baru -->
+    <section id="tab-tren" class="tab active">
+      <h1 class="page-title">👗 Tren Baju Baru</h1>
+      <p class="page-desc">Katalog busana Muslimah terpilih & siap dicoret untuk tukang jahit</p>
+      
+      <div class="filter-bar">
+        <label class="filter-label">Filter Momen 1-Klik:</label>
+        <div class="filter-chips" id="filterChips"></div>
+      </div>
+
+      <div id="trenList" class="card-grid"></div>
+    </section>
+
+    <!-- TAB 2: Studio Coret Gambar -->
+    <section id="tab-studio" class="tab">
+      <h1 class="page-title">✏️ Studio Coret Gambar</h1>
+      <p class="page-desc">Coret-coret foto baju/kain langsung dengan jari, lalu kirim ke WA</p>
+      
+      <div class="upload-box">
+        <label class="big-btn upload-label">
+          📷 Ambil Foto dari HP untuk Dicoret
+          <input type="file" id="uploadImage" accept="image/*" hidden>
+        </label>
+        <p class="hint">Atau klik tombol "Coret / Tandai Gambar Ini" di kartu baju</p>
+      </div>
+
+      <div class="studio-preview" id="studioPreview">
+        <div class="empty-state">
+          <div class="empty-icon">🖼️</div>
+          <div class="empty-text">Belum ada gambar untuk dicoret</div>
+          <div class="empty-sub">Pilih dari katalog atau upload foto dari HP</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 3: Hitung Kain & Modal -->
+    <section id="tab-hitung" class="tab">
+      <h1 class="page-title">🧮 Hitung Kain & Modal</h1>
+      <p class="page-desc">Kalkulator HPP klak-klik, tanpa ribet hitung manual</p>
+
+      <div class="calc-card">
+        <div class="form-group">
+          <label class="form-label">Pilih Model Baju</label>
+          <select id="calcModel" class="big-select"></select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Ukuran (LD)</label>
+          <div class="btn-group" id="sizeGroup">
+            <button class="size-btn active" data-size="standar" data-mult="1.0">Standar LD 105</button>
+            <button class="size-btn" data-size="xl" data-mult="1.08">XL LD 115</button>
+            <button class="size-btn" data-size="jumbo" data-mult="1.16">Jumbo LD 125</button>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Jumlah Produksi</label>
+          <div class="btn-group" id="qtyGroup">
+            <button class="qty-btn active" data-qty="1">1 Potong Sampel</button>
+            <button class="qty-btn" data-qty="4">1 Seri / 4 Pcs</button>
+            <button class="qty-btn" data-qty="10">Setengah Kodi / 10 Pcs</button>
+            <button class="qty-btn" data-qty="20">1 Kodi / 20 Pcs</button>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Checklist Modifikasi (Klak-Klik)</label>
+          <div class="check-grid" id="modCheckGrid">
+            <button class="check-btn" data-mod="resleting_busui">✅ Tambah Resleting Depan (Busui Friendly)</button>
+            <button class="check-btn" data-mod="manset_karet">✅ Lengan Manset Karet (Wudhu Friendly)</button>
+            <button class="check-btn" data-mod="saku_dalam">✅ Tambah Saku Kanan Dalam</button>
+            <button class="check-btn" data-mod="bahan_adem">✅ Ganti Bahan Lebih Adem / Ekonomis</button>
+            <button class="check-btn" data-mod="ambil_atasan">✅ Ambil Model Kerah/Atasannya Saja</button>
+            <button class="check-btn" data-mod="jumbo_ld120">✅ Buat Ukuran Jumbo (LD 120)</button>
+            <button class="check-btn" data-mod="gambar_coretan">✅ Sudah Ada Gambar Coretan untuk Tukang Jahit</button>
+          </div>
+        </div>
+
+        <div class="result-card">
+          <div class="result-title">HASIL HITUNGAN</div>
+          <div class="result-row"><span>Kain Utama</span><strong id="resKain">-</strong></div>
+          <div class="result-row"><span>Kain Furing</span><strong id="resFuring">-</strong></div>
+          <div class="result-row"><span>HPP per Potong</span><strong id="resHppPer">-</strong></div>
+          <div class="result-row"><span>Total HPP</span><strong id="resHppTotal">-</strong></div>
+          <div class="result-row"><span>Estimasi Jual per Potong (Pasar)</span><strong id="resJual">-</strong></div>
+          <div class="result-row highlight"><span>Estimasi Untung per Potong</span><strong id="resUntung">-</strong></div>
+          <div class="result-row highlight"><span>Estimasi Untung Total</span><strong id="resUntungTotal">-</strong></div>
+        </div>
+
+        <div class="wa-builder">
+          <div class="wa-title">BUAT CATATAN UNTUK GRUP WA</div>
+          <textarea id="waText" class="wa-textarea" readonly></textarea>
+          <div class="wa-actions">
+            <button class="big-btn wa-btn" id="btnKirimWA">📲 KIRIM CATATAN LENGKAP KE WHATSAPP</button>
+            <button class="big-btn wa-btn" id="btnBukaGrup">📌 BUKA GRUP WA CATATAN SEKARANG</button>
+            <button class="big-btn wa-btn" id="btnSalin">📋 SALIN TEKS CATATAN</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 4: Toko Bahan & Printilan -->
+    <section id="tab-toko" class="tab">
+      <h1 class="page-title">🏪 Toko Bahan & Printilan</h1>
+      <p class="page-desc">5 Direktori: Kain Grosir • Aksesoris • Alat Produksi • Makloon + QC • Sewa vs PO</p>
+
+      <div class="dir-section">
+        <h2 class="dir-title">1) Direktori Toko Kain Grosir Termurah</h2>
+        <div id="dirKain" class="dir-list"></div>
+      </div>
+
+      <div class="dir-section">
+        <h2 class="dir-title">2) Direktori Aksesoris & Printilan Jahit</h2>
+        <div id="dirAksesoris" class="dir-list"></div>
+      </div>
+
+      <div class="dir-section">
+        <h2 class="dir-title">3) Direktori Alat Bantu Produksi</h2>
+        <div id="dirAlat" class="dir-list"></div>
+      </div>
+
+      <div class="dir-section">
+        <h2 class="dir-title">4) Direktori Jasa Jahit Borongan (Makloon) & Standar QC</h2>
+        <div id="dirMakloon" class="dir-list"></div>
+        <div class="qc-box">
+          <div class="qc-title">DAFTAR CEKLIS QC TUKANG JAHIT</div>
+          <ul id="qcList" class="qc-ul"></ul>
+        </div>
+      </div>
+
+      <div class="dir-section">
+        <h2 class="dir-title">5) Sewa Toko Grosir vs Jualan dari Rumah (Kalkulator Lapak)</h2>
+        <div class="compare-grid">
+          <div class="compare-card">
+            <div class="compare-title">🏬 SEWA TOKO</div>
+            <ul id="sewaList" class="compare-ul"></ul>
+            <div class="compare-cost" id="sewaCost"></div>
+          </div>
+          <div class="compare-card highlight">
+            <div class="compare-title">🏠 JUALAN DARI RUMAH (PO)</div>
+            <ul id="poList" class="compare-ul"></ul>
+            <div class="compare-cost" id="poCost"></div>
+            <div class="compare-reco" id="poReco"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Bottom Navigation -->
+  <nav class="bottom-nav">
+    <button class="nav-btn active" data-tab="tab-tren">
+      <span class="nav-icon">👗</span>
+      <span class="nav-label">Tren Baju Baru</span>
+    </button>
+    <button class="nav-btn" data-tab="tab-studio">
+      <span class="nav-icon">✏️</span>
+      <span class="nav-label">Studio Coret</span>
+    </button>
+    <button class="nav-btn" data-tab="tab-hitung">
+      <span class="nav-icon">🧮</span>
+      <span class="nav-label">Hitung Kain</span>
+    </button>
+    <button class="nav-btn" data-tab="tab-toko">
+      <span class="nav-icon">🏪</span>
+      <span class="nav-label">Toko & Printilan</span>
+    </button>
+  </nav>
+
+  <!-- Modal Detail Produk -->
+  <div id="modalDetail" class="modal">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="modal-title" id="modalTitle">Detail Model</div>
+        <button class="modal-close" id="modalClose">✕</button>
+      </div>
+      <div class="modal-body">
+        <img id="modalImg" class="modal-img" src="" alt="" crossorigin="anonymous">
+        <button class="big-btn draw-btn" id="btnDrawFromModal">✏️ Coret / Tandai Gambar Ini</button>
+        <button class="big-btn speak-btn" id="btnSpeak">🔊 Bacakan Info Ini</button>
+        <div class="spec-box" id="modalSpec"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Canvas Studio -->
+  <div id="modalCanvas" class="modal">
+    <div class="modal-backdrop" id="canvasBackdrop"></div>
+    <div class="modal-content canvas-modal">
+      <div class="modal-header">
+        <div class="modal-title">Studio Coret Gambar Tukang Jahit</div>
+        <button class="modal-close" id="canvasClose">✕</button>
+      </div>
+      <div class="modal-body canvas-body">
+        <div class="canvas-toolbar">
+          <div class="tool-row">
+            <span class="tool-label">Warna:</span>
+            <button class="color-btn active" data-color="#ff0000">🔴 Merah Terang</button>
+            <button class="color-btn" data-color="#ffff00">🟡 Kuning Stabilo</button>
+            <button class="color-btn" data-color="#0066ff">🔵 Biru</button>
+            <button class="color-btn" data-color="#ffffff">⚪ Putih</button>
+          </div>
+          <div class="tool-row">
+            <span class="tool-label">Alat:</span>
+            <button class="tool-btn active" data-tool="free">✏️ Coret Bebas</button>
+            <button class="tool-btn" data-tool="circle">⭕ Buat Lingkaran</button>
+            <button class="tool-btn" data-tool="arrow">➡️ Buat Panah</button>
+          </div>
+          <div class="tool-row stamp-row">
+            <span class="tool-label">Stempel Teks (Tanpa Ketik):</span>
+            <button class="stamp-btn" data-stamp="Ganti Resleting Busui">🏷️ Stempel: "Ganti Resleting Busui"</button>
+            <button class="stamp-btn" data-stamp="Lengan Karet">🏷️ Stempel: "Lengan Karet"</button>
+            <button class="stamp-btn" data-stamp="Ikuti Kerah Ini">🏷️ Stempel: "Ikuti Kerah Ini"</button>
+            <button class="stamp-btn" data-stamp="Lebarkan Bawah">🏷️ Stempel: "Lebarkan Bawah"</button>
+          </div>
+          <div class="tool-row action-row">
+            <button class="action-btn" id="btnUndo">↩️ Batal 1 Coretan (Undo)</button>
+            <button class="action-btn" id="btnClear">🧹 Bersihkan Semua</button>
+          </div>
+        </div>
+        <div class="canvas-wrap" id="canvasWrap">
+          <canvas id="drawCanvas"></canvas>
+        </div>
+        <div class="canvas-export">
+          <button class="big-btn export-btn" id="btnDownload">📥 DOWNLOAD GAMBAR HASIL CORETAN</button>
+          <button class="big-btn export-btn" id="btnShareWA">📲 KIRIM GAMBAR CORETAN & CATATAN KE WA</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

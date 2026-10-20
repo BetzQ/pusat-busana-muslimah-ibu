@@ -1,0 +1,552 @@
+{
+  "meta": {
+    "title": "Database Pusat Busana Muslimah Ibu - Konveksi & Printilan",
+    "version": "1.0.0",
+    "updated_at": "2026-10-20"
+  },
+  "tren_baju": [
+    {
+      "id": "gm-001",
+      "nama_model": "Gamis Polo Linen Premium Loose Fit",
+      "kategori_momen": "Lagi Viral Minggu Ini",
+      "indikator_tren": "🔥 Terlaris #1 Tanah Abang & TikTok",
+      "foto_utama": "https://images.unsplash.com/photo-1583391733956-6c78276477e2?w=800&h=1000&fit=crop",
+      "spesifikasi_jahit": {
+        "jenis_kain_utama": "Polo Linen Premium",
+        "sifat_kain": "Adem, jatuh natural, tidak terlalu nerawang, minim kusut",
+        "perlu_furing": false,
+        "penjelasan_furing": "Tanpa furing untuk harian",
+        "potongan_pola": "A-Line Lebar 2.8m",
+        "detail_busui": "Resleting Jepang Depan 25cm",
+        "detail_wudhu": "Manset Kancing 2",
+        "tingkat_kesulitan_jahit": "🟢 Mudah - Jahit Lurus Cepat",
+        "kebutuhan_kain_standar_meter": 2.75,
+        "kebutuhan_furing_meter": 0,
+        "harga_kain_per_meter_grosir": 65000,
+        "ongkos_jahit_makloon": 85000,
+        "biaya_aksesoris_resleting_kancing": 15000,
+        "harga_jual_pasaran_min": 275000,
+        "harga_jual_pasaran_max": 325000
+      }
+    },
+    {
+      "id": "gm-002",
+      "nama_model": "Gamis Syar'i Ceruty Babydoll",
+      "kategori_momen": "Persiapan Lebaran & Pesta",
+      "indikator_tren": "📈 Naik 240% Minggu Ini",
+      "foto_utama": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=800&h=1000&fit=crop",
+      "spesifikasi_jahit": {
+        "jenis_kain_utama": "Ceruty Babydoll Armani",
+        "sifat_kain": "Flowy, jatuh elegan, sedikit transparan - perlu perhatian",
+        "perlu_furing": true,
+        "penjelasan_furing": "Butuh furing Hyget Super atau Katun Hero",
+        "potongan_pola": "Gamis Susun 3 Ruffle",
+        "detail_busui": "Resleting Jepang Depan 25cm",
+        "detail_wudhu": "Lengan Karet Smock Lembut",
+        "tingkat_kesulitan_jahit": "🔴 Rumit - Butuh Furing & Payet",
+        "kebutuhan_kain_standar_meter": 3.25,
+        "kebutuhan_furing_meter": 2,
+        "harga_kain_per_meter_grosir": 95000,
+        "ongkos_jahit_makloon": 135000,
+        "biaya_aksesoris_resleting_kancing": 20000,
+        "harga_jual_pasaran_min": 425000,
+        "harga_jual_pasaran_max": 495000
+      }
+    },
+    {
+      "id": "ab-003",
+      "nama_model": "Abaya Loose Tanpa Pinggang Jetblack",
+      "kategori_momen": "Harian & Pengajian",
+      "indikator_tren": "🔥 Terlaris #1 Tanah Abang & TikTok",
+      "foto_utama": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=800&h=1000&fit=crop",
+      "spesifikasi_jahit": {
+        "jenis_kain_utama": "Jetblack Kiara Turki",
+        "sifat_kain": "Tebal sedang, jatuh drapey, tidak nerawang",
+        "perlu_furing": false,
+        "penjelasan_furing": "Umumnya tanpa furing",
+        "potongan_pola": "Abaya Loose Tanpa Potongan Pinggang",
+        "detail_busui": "Resleting Jepang Depan 25cm",
+        "detail_wudhu": "Manset Kancing 2",
+        "tingkat_kesulitan_jahit": "🟢 Mudah - Jahit Lurus Cepat",
+        "kebutuhan_kain_standar_meter": 2.8,
+        "kebutuhan_furing_meter": 0,
+        "harga_kain_per_meter_grosir": 85000,
+        "ongkos_jahit_makloon": 95000,
+        "biaya_aksesoris_resleting_kancing": 15000,
+        "harga_jual_pasaran_min": 325000,
+        "harga_jual_pasaran_max": 375000
+      }
+    },
+    {
+      "id": "tn-004",
+      "nama_model": "Tunik Oversize Crinkle Airflow",
+      "kategori_momen": "Harian & Pengajian",
+      "indikator_tren": "📈 Naik 180% Minggu Ini",
+      "foto_utama": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=800&h=1000&fit=crop",
+      "spesifikasi_jahit": {
+        "jenis_kain_utama": "Crinkle Airflow Grade A",
+        "sifat_kain": "Sangat adem, tidak licin, crinkle natural minim gosok",
+        "perlu_furing": false,
+        "penjelasan_furing": "Tanpa furing",
+        "potongan_pola": "A-Line Lebar 2.8m",
+        "detail_busui": "Tanpa Resleting / Model Slip-On",
+        "detail_wudhu": "Lengan 3/4 Manset Lembut",
+        "tingkat_kesulitan_jahit": "🟢 Mudah - Jahit Lurus Cepat",
+        "kebutuhan_kain_standar_meter": 2.25,
+        "kebutuhan_furing_meter": 0,
+        "harga_kain_per_meter_grosir": 45000,
+        "ongkos_jahit_makloon": 65000,
+        "biaya_aksesoris_resleting_kancing": 8000,
+        "harga_jual_pasaran_min": 195000,
+        "harga_jual_pasaran_max": 235000
+      }
+    },
+    {
+      "id": "os-005",
+      "nama_model": "One-Set Muslimah Katun Bordir Bolong",
+      "kategori_momen": "Tunik & One-Set Aktif",
+      "indikator_tren": "🔥 Terlaris #1 Tanah Abang & TikTok",
+      "foto_utama": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=800&h=1000&fit=crop",
+      "spesifikasi_jahit": {
+        "jenis_kain_utama": "Katun Bordir Bolong / Embroidery",
+        "sifat_kain": "Adem, kuat, sedikit kaku baru",
+        "perlu_furing": true,
+        "penjelasan_furing": "Butuh furing tipis di bagian transparan",
+        "potongan_pola": "Potongan Dada Empire",
+        "detail_busui": "Resleting Jepang Samping/Depan 25cm",
+        "detail_wudhu": "Lengan Karet Smock Lembut",
+        "tingkat_kesulitan_jahit": "🟡 Sedang - Ada Lipit/Ruffle",
+        "kebutuhan_kain_standar_meter": 2.6,
+        "kebutuhan_furing_meter": 1,
+        "harga_kain_per_meter_grosir": 75000,
+        "ongkos_jahit_makloon": 95000,
+        "biaya_aksesoris_resleting_kancing": 15000,
+        "harga_jual_pasaran_min": 295000,
+        "harga_jual_pasaran_max": 345000
+      }
+    },
+    {
+      "id": "kf-006",
+      "nama_model": "Kaftan Shimmer Silk Luxury",
+      "kategori_momen": "Persiapan Lebaran & Pesta",
+      "indikator_tren": "💎 Margin Untung Tinggi",
+      "foto_utama": "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=800&h=1000&fit=crop",
+      "spesifikasi_jahit": {
+        "jenis_kain_utama": "Shimmer Silk Luxury",
+        "sifat_kain": "Glowing, jatuh mewah, licin - butuh kehati-hatian potong",
+        "perlu_furing": false,
+        "penjelasan_furing": "Biasanya tanpa furing",
+        "potongan_pola": "Abaya Loose Tanpa Potongan Pinggang",
+        "detail_busui": "Tanpa Resleting / Model Slip-On",
+        "detail_wudhu": "Lengan Lebar / Manset Kancing",
+        "tingkat_kesulitan_jahit": "🟡 Sedang - Ada Lipit/Ruffle",
+        "kebutuhan_kain_standar_meter": 2.9,
+        "kebutuhan_furing_meter": 0,
+        "harga_kain_per_meter_grosir": 145000,
+        "ongkos_jahit_makloon": 145000,
+        "biaya_aksesoris_resleting_kancing": 10000,
+        "harga_jual_pasaran_min": 495000,
+        "harga_jual_pasaran_max": 595000
+      }
+    },
+    {
+      "id": "dk-007",
+      "nama_model": "Dress Kondangan Muslimah Layered",
+      "kategori_momen": "Persiapan Lebaran & Pesta",
+      "indikator_tren": "📈 Naik 210% Minggu Ini",
+      "foto_utama": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=800&h=1000&fit=crop",
+      "spesifikasi_jahit": {
+        "jenis_kain_utama": "Ceruty Babydoll Armani",
+        "sifat_kain": "Flowy berlayer, perlu furing terarah",
+        "perlu_furing": true,
+        "penjelasan_furing": "Butuh furing Hyget Super full",
+        "potongan_pola": "Gamis Susun 3 Ruffle",
+        "detail_busui": "Resleting Jepang Depan 25cm",
+        "detail_wudhu": "Manset Kancing 2",
+        "tingkat_kesulitan_jahit": "🔴 Rumit - Butuh Furing & Payet",
+        "kebutuhan_kain_standar_meter": 3.4,
+        "kebutuhan_furing_meter": 2.2,
+        "harga_kain_per_meter_grosir": 95000,
+        "ongkos_jahit_makloon": 155000,
+        "biaya_aksesoris_resleting_kancing": 25000,
+        "harga_jual_pasaran_min": 475000,
+        "harga_jual_pasaran_max": 545000
+      }
+    },
+    {
+      "id": "lt-008",
+      "nama_model": "Long Tunik Tile Bordir Modern",
+      "kategori_momen": "Tunik & One-Set Aktif",
+      "indikator_tren": "💎 Margin Untung Tinggi",
+      "foto_utama": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800&h=1000&fit=crop",
+      "spesifikasi_jahit": {
+        "jenis_kain_utama": "Katun Bordir Bolong / Embroidery",
+        "sifat_kain": "Elegan, butuh presisi potong",
+        "perlu_furing": true,
+        "penjelasan_furing": "Furing tipis pada badan depan",
+        "potongan_pola": "Potongan Dada Empire",
+        "detail_busui": "Resleting Jepang Depan 25cm",
+        "detail_wudhu": "Lengan Karet Smock Lembut",
+        "tingkat_kesulitan_jahit": "🟡 Sedang - Ada Lipit/Ruffle",
+        "kebutuhan_kain_standar_meter": 2.5,
+        "kebutuhan_furing_meter": 0.8,
+        "harga_kain_per_meter_grosir": 85000,
+        "ongkos_jahit_makloon": 95000,
+        "biaya_aksesoris_resleting_kancing": 15000,
+        "harga_jual_pasaran_min": 295000,
+        "harga_jual_pasaran_max": 345000
+      }
+    },
+    {
+      "id": "sr-009",
+      "nama_model": "Setelan Rok Hijab Matching Set",
+      "kategori_momen": "Harian & Pengajian",
+      "indikator_tren": "📈 Naik 165% Minggu Ini",
+      "foto_utama": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=800&h=1000&fit=crop",
+      "spesifikasi_jahit": {
+        "jenis_kain_utama": "Crinkle Airflow Grade A",
+        "sifat_kain": "Ringan, adem, praktis",
+        "perlu_furing": false,
+        "penjelasan_furing": "Tanpa furing",
+        "potongan_pola": "A-Line Lebar 2.8m",
+        "detail_busui": "Tanpa Resleting / Model Slip-On",
+        "detail_wudhu": "Lengan 3/4",
+        "tingkat_kesulitan_jahit": "🟢 Mudah - Jahit Lurus Cepat",
+        "kebutuhan_kain_standar_meter": 2.4,
+        "kebutuhan_furing_meter": 0,
+        "harga_kain_per_meter_grosir": 50000,
+        "ongkos_jahit_makloon": 75000,
+        "biaya_aksesoris_resleting_kancing": 10000,
+        "harga_jual_pasaran_min": 225000,
+        "harga_jual_pasaran_max": 265000
+      }
+    },
+    {
+      "id": "kh-010",
+      "nama_model": "Khimar Two Layer Soft",
+      "kategori_momen": "Harian & Pengajian",
+      "indikator_tren": "🔥 Terlaris #1 Tanah Abang & TikTok",
+      "foto_utama": "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?w=800&h=1000&fit=crop",
+      "spesifikasi_jahit": {
+        "jenis_kain_utama": "Ceruty Baby Soft",
+        "sifat_kain": "Lembut, ringan, jatuh",
+        "perlu_furing": false,
+        "penjelasan_furing": "Tanpa furing",
+        "potongan_pola": "Potongan Dada Empire",
+        "detail_busui": "Tanpa Resleting",
+        "detail_wudhu": "Full Coverage",
+        "tingkat_kesulitan_jahit": "🟢 Mudah - Jahit Lurus Cepat",
+        "kebutuhan_kain_standar_meter": 1.8,
+        "kebutuhan_furing_meter": 0,
+        "harga_kain_per_meter_grosir": 55000,
+        "ongkos_jahit_makloon": 65000,
+        "biaya_aksesoris_resleting_kancing": 5000,
+        "harga_jual_pasaran_min": 175000,
+        "harga_jual_pasaran_max": 215000
+      }
+    },
+    {
+      "id": "mk-011",
+      "nama_model": "Mukena Premium Travel",
+      "kategori_momen": "Harian & Pengajian",
+      "indikator_tren": "📈 Naik 150% Minggu Ini",
+      "foto_utama": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=800&h=1000&fit=crop",
+      "spesifikasi_jahit": {
+        "jenis_kain_utama": "Katun Toyobo Premium",
+        "sifat_kain": "Adem, cepat kering, awet",
+        "perlu_furing": false,
+        "penjelasan_furing": "Tanpa furing",
+        "potongan_pola": "Potongan Dada Empire",
+        "detail_busui": "Tanpa Resleting",
+        "detail_wudhu": "Praktis",
+        "tingkat_kesulitan_jahit": "🟢 Mudah - Jahit Lurus Cepat",
+        "kebutuhan_kain_standar_meter": 2.2,
+        "kebutuhan_furing_meter": 0,
+        "harga_kain_per_meter_grosir": 65000,
+        "ongkos_jahit_makloon": 85000,
+        "biaya_aksesoris_resleting_kancing": 8000,
+        "harga_jual_pasaran_min": 245000,
+        "harga_jual_pasaran_max": 295000
+      }
+    },
+    {
+      "id": "gm-012",
+      "nama_model": "Gamis A-Line Empire Waist",
+      "kategori_momen": "Lagi Viral Minggu Ini",
+      "indikator_tren": "💎 Margin Untung Tinggi",
+      "foto_utama": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&h=1000&fit=crop",
+      "spesifikasi_jahit": {
+        "jenis_kain_utama": "Polo Linen Premium",
+        "sifat_kain": "Adem, jatuh anggun",
+        "perlu_furing": false,
+        "penjelasan_furing": "Tanpa furing",
+        "potongan_pola": "Potongan Dada Empire",
+        "detail_busui": "Resleting Jepang Depan 25cm",
+        "detail_wudhu": "Manset Kancing 2",
+        "tingkat_kesulitan_jahit": "🟢 Mudah - Jahit Lurus Cepat",
+        "kebutuhan_kain_standar_meter": 2.65,
+        "kebutuhan_furing_meter": 0,
+        "harga_kain_per_meter_grosir": 65000,
+        "ongkos_jahit_makloon": 85000,
+        "biaya_aksesoris_resleting_kancing": 15000,
+        "harga_jual_pasaran_min": 275000,
+        "harga_jual_pasaran_max": 315000
+      }
+    },
+    {
+      "id": "tn-014",
+      "nama_model": "Tunik Long Tunic Premium",
+      "kategori_momen": "Tunik & One-Set Aktif",
+      "indikator_tren": "📈 Naik 190% Minggu Ini",
+      "foto_utama": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=800&h=1000&fit=crop",
+      "spesifikasi_jahit": {
+        "jenis_kain_utama": "Polo Linen Premium",
+        "sifat_kain": "Adem, jatuh, gampang dipadukan",
+        "perlu_furing": false,
+        "penjelasan_furing": "Tanpa furing",
+        "potongan_pola": "A-Line Lebar 2.8m",
+        "detail_busui": "Resleting Jepang Depan 25cm",
+        "detail_wudhu": "Lengan Karet Smock Lembut",
+        "tingkat_kesulitan_jahit": "🟢 Mudah - Jahit Lurus Cepat",
+        "kebutuhan_kain_standar_meter": 2.3,
+        "kebutuhan_furing_meter": 0,
+        "harga_kain_per_meter_grosir": 65000,
+        "ongkos_jahit_makloon": 75000,
+        "biaya_aksesoris_resleting_kancing": 12000,
+        "harga_jual_pasaran_min": 235000,
+        "harga_jual_pasaran_max": 275000
+      }
+    },
+    {
+      "id": "os-015",
+      "nama_model": "One-Set Muslimah Rok A-Line",
+      "kategori_momen": "Tunik & One-Set Aktif",
+      "indikator_tren": "🔥 Terlaris #1 Tanah Abang & TikTok",
+      "foto_utama": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=800&h=1000&fit=crop",
+      "spesifikasi_jahit": {
+        "jenis_kain_utama": "Crinkle Airflow Grade A",
+        "sifat_kain": "Ringan, adem, praktis untuk harian",
+        "perlu_furing": false,
+        "penjelasan_furing": "Tanpa furing",
+        "potongan_pola": "A-Line Lebar 2.8m",
+        "detail_busui": "Tanpa Resleting / Model Slip-On",
+        "detail_wudhu": "Lengan 3/4 Manset Lembut",
+        "tingkat_kesulitan_jahit": "🟢 Mudah - Jahit Lurus Cepat",
+        "kebutuhan_kain_standar_meter": 2.5,
+        "kebutuhan_furing_meter": 0,
+        "harga_kain_per_meter_grosir": 50000,
+        "ongkos_jahit_makloon": 75000,
+        "biaya_aksesoris_resleting_kancing": 10000,
+        "harga_jual_pasaran_min": 235000,
+        "harga_jual_pasaran_max": 275000
+      }
+    },
+    {
+      "id": "ab-016",
+      "nama_model": "Abaya Elegant Simple",
+      "kategori_momen": "Harian & Pengajian",
+      "indikator_tren": "💎 Margin Untung Tinggi",
+      "foto_utama": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800&h=1000&fit=crop",
+      "spesifikasi_jahit": {
+        "jenis_kain_utama": "Jetblack Kiara Turki",
+        "sifat_kain": "Elegan, jatuh, tidak nerawang",
+        "perlu_furing": false,
+        "penjelasan_furing": "Tanpa furing",
+        "potongan_pola": "Abaya Loose Tanpa Potongan Pinggang",
+        "detail_busui": "Resleting Jepang Depan 25cm",
+        "detail_wudhu": "Manset Kancing 2",
+        "tingkat_kesulitan_jahit": "🟢 Mudah - Jahit Lurus Cepat",
+        "kebutuhan_kain_standar_meter": 2.8,
+        "kebutuhan_furing_meter": 0,
+        "harga_kain_per_meter_grosir": 85000,
+        "ongkos_jahit_makloon": 95000,
+        "biaya_aksesoris_resleting_kancing": 15000,
+        "harga_jual_pasaran_min": 325000,
+        "harga_jual_pasaran_max": 375000
+      }
+    }
+  ],
+  "direktori_printilan": {
+    "toko_kain_grosir": [
+      {
+        "nama": "Pusat Kain Tanah Abang Blok A",
+        "lokasi": "Tanah Abang, Jakarta Pusat",
+        "spesialisasi": [
+          "Polo Linen",
+          "Rayon Premium",
+          "Kain Polos"
+        ],
+        "kisaran_harga": "Rp35.000 - Rp95.000/meter (grosir)",
+        "tips": "Datang pagi, bawa karung, minta potong ecer/grosir",
+        "catatan_wa": true
+      },
+      {
+        "nama": "Cipadu Textile Center",
+        "lokasi": "Cipadu, Tangerang",
+        "spesialisasi": [
+          "Crinkle",
+          "Ceruty",
+          "Brokat"
+        ],
+        "kisaran_harga": "Rp30.000 - Rp95.000/meter",
+        "tips": "Bisa nego untuk pembelian >= 10 meter",
+        "catatan_wa": true
+      },
+      {
+        "nama": "Pasar Baru Bandung - Cigondewah Area",
+        "lokasi": "Bandung",
+        "spesialisasi": [
+          "Katun Bordir",
+          "Tile",
+          "Jersey Premium"
+        ],
+        "kisaran_harga": "Rp25.000 - Rp85.000/meter",
+        "tips": "Fokus ke blok bordir untuk order pesta",
+        "catatan_wa": true
+      }
+    ],
+    "aksesoris_printilan": [
+      {
+        "nama": "Resleting Jepang 25cm",
+        "harga_grosir": "Rp2.000 - Rp3.500/buah",
+        "keterangan": "Busui Friendly"
+      },
+      {
+        "nama": "Resleting Jepang 50cm",
+        "harga_grosir": "Rp3.000 - Rp4.500/buah",
+        "keterangan": "Untuk model panjang"
+      },
+      {
+        "nama": "Karet Lengan Elastis 1-2cm",
+        "harga_grosir": "Rp1.000 - Rp2.000/meter",
+        "keterangan": "Lembut tidak sakit"
+      },
+      {
+        "nama": "Kancing Bungkus/Mutiara",
+        "harga_grosir": "Rp15.000 - Rp40.000/lusin",
+        "keterangan": "Untuk detail elegan"
+      },
+      {
+        "nama": "Renda Rajut/Bordir",
+        "harga_grosir": "Rp5.000 - Rp25.000/yard",
+        "keterangan": "Hiasan"
+      },
+      {
+        "nama": "Benang Jahit & Obras Astra/Yamalon",
+        "harga_grosir": "Rp3.000 - Rp6.000/gulung",
+        "keterangan": "Wajib"
+      },
+      {
+        "nama": "Kain Keras Vislin/M33",
+        "harga_grosir": "Rp8.000 - Rp15.000/meter",
+        "keterangan": "Kerah/Manset"
+      },
+      {
+        "nama": "Label Woven Damask/Satin Print",
+        "harga_grosir": "Rp150 - Rp500/buah",
+        "keterangan": "Brand sendiri"
+      },
+      {
+        "nama": "Plastik Kemasan Ziplock Doff",
+        "harga_grosir": "Rp150 - Rp400/buah",
+        "keterangan": "Packaging rapi"
+      }
+    ],
+    "alat_bantu_produksi": [
+      {
+        "nama": "Gunting Kain Elektrik",
+        "harga_estimasi": "Rp850.000 - Rp2.500.000",
+        "kegunaan": "Potong tumpukan, tangan tidak pegal"
+      },
+      {
+        "nama": "Setrika Uap Boiler/Steamer Berdiri",
+        "harga_estimasi": "Rp1.000.000 - Rp3.000.000",
+        "kegunaan": "Anti gosong untuk Shimmer/Ceruty"
+      },
+      {
+        "nama": "Patung Manekin Muslimah + Tiang",
+        "harga_estimasi": "Rp450.000 - Rp1.200.000",
+        "kegunaan": "Fitting & foto produk"
+      },
+      {
+        "nama": "Lampu LED Meja Jahit",
+        "harga_estimasi": "Rp150.000 - Rp450.000",
+        "kegunaan": "Penting untuk mata usia 50+"
+      },
+      {
+        "nama": "Meteran Baju Huruf Besar",
+        "harga_estimasi": "Rp15.000 - Rp35.000",
+        "kegunaan": "Mudah dibaca"
+      },
+      {
+        "nama": "Kapur Kain Hilang Karena Panas",
+        "harga_estimasi": "Rp5.000 - Rp15.000",
+        "kegunaan": "Praktis & bersih"
+      }
+    ],
+    "makloon_jahit_qc": [
+      {
+        "sentra": "Jakarta Barat/Tambora",
+        "ongkos_jahit_per_potong": "Rp65.000 - Rp95.000",
+        "catatan": "Fokus harian, bisa nego seri"
+      },
+      {
+        "sentra": "Cipadu/Tangerang",
+        "ongkos_jahit_per_potong": "Rp65.000 - Rp110.000",
+        "catatan": "Cukup lengkap, ramai order pesta"
+      },
+      {
+        "sentra": "Soreang/Bandung",
+        "ongkos_jahit_per_potong": "Rp55.000 - Rp95.000",
+        "catatan": "Banyak bordir & finishing rapi"
+      },
+      {
+        "sentra": "Pekalongan",
+        "ongkos_jahit_per_potong": "Rp45.000 - Rp85.000",
+        "catatan": "Harga kompetitif"
+      },
+      {
+        "sentra": "Tasikmalaya",
+        "ongkos_jahit_per_potong": "Rp45.000 - Rp80.000",
+        "catatan": "Cocok untuk produksi seri"
+      },
+      {
+        "qc_checklist": [
+          "Jarak setikan 1 inch = 12-14 jarum",
+          "Obras 4 benang rapi",
+          "Resleting tidak bergelombang",
+          "Kancing terpasang kuat",
+          "Lengan & manset simetris",
+          "Jahitan dalam bersih",
+          "Panjang/pinggang sesuai ukuran"
+        ]
+      }
+    ],
+    "sewa_toko_vs_rumah": {
+      "sewa_toko": {
+        "lokasi_contoh": [
+          "Blok A/B/F Tanah Abang",
+          "Pasar Regional"
+        ],
+        "rincian": [
+          "Sewa bulanan",
+          "Deposit",
+          "Listrik/air",
+          "Gawangan baju",
+          "Izin/biaya lain"
+        ],
+        "estimasi_modal_awal": "Rp8.000.000 - Rp25.000.000"
+      },
+      "jual_dari_rumah_po": {
+        "strategi": "Pre-Order (PO) Grup WA",
+        "keunggulan": [
+          "Modal minim",
+          "Fokus order nyata",
+          "Cocok pemula"
+        ],
+        "estimasi_modal_awal": "Rp0 - Rp2.000.000",
+        "rekomendasi": "Mulai dari rumah dengan sistem PO, pindah ke kios saat order konsisten"
+      }
+    }
+  }
+}
