@@ -1,12 +1,12 @@
 {
   "name": "baju-muslim",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pusat Busana Muslimah Ibu - Mobile-first web app untuk konveksi",
   "main": "index.js",
   "scripts": {
     "test": "node tests/run_all_qa.js",
     "dev": "vite",
-    "build": "vite build",
+    "build": "npx vite build",
     "preview": "vite preview"
   },
   "keywords": [],
